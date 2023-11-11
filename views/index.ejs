@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Lista de Cócteles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de Cócteles</h1>
+    <div>
+        <% cocktails.forEach(cocktail => { %>
+            <div class="card">
+                <img src="<%= cocktail.strDrinkThumb %>" alt="<%= cocktail.strDrink %>">
+                <p><%= cocktail.strDrink %></p>
+            </div>
+        <% }); %>
+    </div>
+</body>
+</html>

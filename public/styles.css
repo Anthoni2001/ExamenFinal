@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 100px;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center 
+    
+}
+
+.card {
+    border: 1px solid rgba(237, 28, 9, 0.773);
+    border-radius: 5em;
+    padding: 2em;
+    margin: 5em;
+    filter: drop-shadow(0 0 2em #0f1ae5aa);
+    text-align: center;
+    font-size: larger;
+    height: 30em;
+    background-color: rgb(173, 99, 216);
+   
+}
+
+img {
+    max-width: 50%;
+    height: 20em;
+    border-radius: 80px;
+}
